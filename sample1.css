@@ -1,0 +1,131 @@
+/* ROOT — prevents ALL conflicts */
+.frame11-page {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.frame11-home-banner {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.frame11-home-banner h1 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.frame11-home-banner span {
+  color: #b4a531;
+}
+
+/* SEARCH */
+.frame11-middle-banner {
+  background: #f5f2ed;
+  padding: 60px 0;
+}
+
+.frame11-search-box {
+  width: 70%;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+}
+
+.frame11-banner-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.frame11-banner-child input,
+.frame11-banner-child select {
+  width: 180px;
+  padding: 10px;
+}
+
+.frame11-search-btn {
+  padding: 12px 20px;
+  margin-top: 20px;
+}
+
+/* FILTER */
+.frame11-filter-banner {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.frame11-filter-box {
+  display: flex;
+  gap: 30px;
+}
+
+.frame11-filter-item {
+  border: 1px solid gray;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* ROOMS */
+.frame11-room-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.frame11-room-card {
+  width: 27%;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+  border-radius: 10px;
+}
+
+.frame11-room-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.frame11-room-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* LOAD MORE */
+.frame11-load-more {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.frame11-load-more button {
+  border: 1px solid #d4af37;
+  background: white;
+  color: #d4af37;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .frame11-search-box {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .frame11-room-card {
+    width: 80%;
+  }
+}
