@@ -1,0 +1,157 @@
+.profile-page {
+  font-family: "Poppins", sans-serif;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.profile-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-topbar nav a {
+  margin: 0 15px;
+  color: #555;
+  cursor: pointer;
+}
+
+.profile-topbar .active {
+  color: #c89b3c;
+  font-weight: 600;
+}
+
+.user-mini {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-mini img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 30px;
+  padding: 40px 60px;
+}
+
+.profile-sidebar {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.profile-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-sidebar li {
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.profile-sidebar .active {
+  color: #c89b3c;
+  font-weight: 600;
+}
+
+.logout {
+  color: red;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profile-card {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.profile-card img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.box-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.box button {
+  background: #c89b3c;
+  border: none;
+  padding: 8px 18px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid input,
+.form-grid textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.form-grid textarea {
+  grid-column: span 2;
+}
+
+.payment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.payment-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.status {
+  color: green;
+}
+
+.security-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.outline-btn {
+  background: transparent;
+  border: 1px solid #c89b3c;
+  color: #c89b3c;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
