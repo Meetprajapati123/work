@@ -1,0 +1,127 @@
+.room-details-page {
+  background: #faf7f4;
+  padding: 40px 0;
+}
+
+.room-details-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+/* LEFT */
+.room-gallery .main-img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.thumbs {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbs img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.room-title {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.room-meta {
+  color: #777;
+  margin: 8px 0;
+}
+
+.room-desc {
+  color: #555;
+  line-height: 1.6;
+}
+
+.amenities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.policies {
+  padding-left: 18px;
+  color: #555;
+}
+
+/* SIDEBAR */
+.room-sidebar {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  position: sticky;
+  top: 20px;
+}
+
+.room-sidebar h2 {
+  font-size: 26px;
+}
+
+.room-sidebar span {
+  font-size: 14px;
+  color: #777;
+}
+
+.room-sidebar input,
+.room-sidebar select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.price-breakup div {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.book-btn {
+    position: relative;
+    left: 0px;
+  width: 100%;
+  padding: 14px;
+  background: #d39b4a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.note {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .room-details-container {
+    grid-template-columns: 1fr;
+  }
+}
