@@ -1,0 +1,117 @@
+.comp-booking-page {
+  background: #faf7f4;
+  min-height: 100vh;
+  padding: 10px 50px;
+}
+
+.comp-main-banner {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.comp-main-banner h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.comp-main-banner p {
+  color: #777;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #c89b63;
+  text-decoration: none;
+}
+
+.comp-booking-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+/* FORM */
+.comp-booking-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.comp-booking-form input,
+.comp-booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.comp-booking-form textarea {
+  resize: none;
+  height: 90px;
+}
+
+.radio,
+.checkbox {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.confirm-btn {
+    position: relative;
+    left: -0px;
+  width: 100%;
+  padding: 14px;
+  background: #c89b63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comp-booking-summary {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #c89b63;
+}
+.comp-booking-summary img{
+    object-fit: cover;
+    margin-top: 2%;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+}
+
+.compbking{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: #F5F1E8;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
